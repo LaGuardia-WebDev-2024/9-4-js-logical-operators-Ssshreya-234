@@ -16,6 +16,15 @@ draw = function() {
     if(mousePressed){
         labelCanvas();
     }
+    if(mouseX < 200 && mouseY < 200){
+        fill(255,0,0)
+        rect(0, 0, 400, 200);  
+    }
+   
+    if(mouseX == 100 || mouseY == 100 || mouseX < 3 || mouseX > 397){
+        fill(0,0,0)
+        text("CLICK HERE",200,200)
+    }
 };
 
 var labelCanvas = function(){

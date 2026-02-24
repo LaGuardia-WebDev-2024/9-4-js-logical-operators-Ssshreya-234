@@ -17,8 +17,7 @@ For this first step, add an if that colors the button red when you press the mou
   <br> 
 `if(mousePressed){`<br>`
 ......`<br>`
-}`
-
+}                            
 ### Step #2 - But WHERE is the mouse pressed? <br>
 
 Did you notice that the rectangle changes its color when you click on the bottom half of the canvas? Buttons aren't supposed to activate when you click outside of them.
